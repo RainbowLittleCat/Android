@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+     Changed from
+         https://github.com/googlearchive/android-BluetoothChat/blob/master/Application/src/main/res/values/strings.xml
+
+     Copyright (C) 2014 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Rainbow little cat</string>
+    <string name="send">Send</string>
+    <string name="not_connected">No device connected</string>
+    <string name="bt_not_enabled_leaving">Bluetooth is not enabled, quit app</string>
+    <string name="title_connecting">Connecting…</string>
+    <string name="title_connected_to">Connect to <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="title_not_connected">Not connected.</string>
+    <string name="scanning">Scanning…</string>
+    <string name="select_device">Select device</string>
+    <string name="none_paired">No paired device</string>
+    <string name="none_found">No device found</string>
+    <string name="title_paired_devices">Paired devices</string>
+    <string name="scan_device">Scan device</string>
+    <string name="connect_device">Connect device</string>
+    <string name="voice_button_description">Starting speech recognition</string>
+    <string name="init_text_air_quality">Air quality</string>
+    <string name="init_text_temperature">Temperature</string>
+    <string name="init_text_humidity">Humidity</string>
+    <string name="unit_air_quality" translatable="false">μℊ/㎥</string>
+    <string name="unit_temperature" translatable="false">℃</string>
+    <string name="unit_humidity" translatable="false">%</string>
+    <string name="description_air_quality_image">Image to display current air quality value</string>
+    <string name="description_temperature_image">Image to display current temperature</string>
+    <string name="description_humidity_image">Image to display current humidity value</string>
+    <string name="chart_y_axis_title">Time</string>
+    <string name="text_tab_image">Tab image</string>
+    <string name="title_other_devices">Other devices</string>
+    <string name="text_to_speech_air_quality_prefix">"Current air quality is "</string>
+    <string name="text_to_speech_air_quality_suffix">" micro gram per square meters"</string>
+    <string name="text_to_speech_temperature_prefix">"Current temperature is "</string>
+    <string name="text_to_speech_temperature_suffix">" degrees celsius"</string>
+    <string name="text_to_speech_humidity_prefix">"Current humidity degree is "</string>
+    <string name="permission_message_record_audio">To use speech recognition, audio record permission is required</string>
+    <string name="ok">OK</string>
+    <string name="start_recognition_prompt">May I help you?</string>
+    <string name="no">No</string>
+    <string name="permission_required">Permission required</string>
+    <string name="speech_recognition_not_supported">Speech recognition is not supported</string>
+    <string name="bt_not_supported">Bluetooth is not available</string>
+    <string name="connect_to">Connected to </string>
+    <string name="no_chart_data_available">No chart data available.</string>
+
+    <string-array name="not_connect_to_device_reply">
+        <item>@string/find_kitty_first</item>
+        <item>@string/kitty_not_found</item>
+        <item>@string/where_is_kitty</item>
+        <item>@string/where_r_u_kitty</item>
+    </string-array>
+    <string name="find_kitty_first">Find little cat first</string>
+    <string name="kitty_not_found">There is no little cat</string>
+    <string name="where_is_kitty">Where is little cat</string>
+    <string name="where_r_u_kitty">Where are you little cat</string>
+    <string name="about">About</string>
+</resources>

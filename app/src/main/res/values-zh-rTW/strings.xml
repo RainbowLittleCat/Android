@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--
+     Changed from
+         https://github.com/googlearchive/android-BluetoothChat/blob/master/Application/src/main/res/values/strings.xml
+
+     Copyright (C) 2014 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">彩虹小貓</string>
+    <string name="bt_not_enabled_leaving">藍芽未開啟，離開應用程式</string>
+    <string name="chart_y_axis_title">時間</string>
+    <string name="description_air_quality_image">顯示目前空氣品質數值的圖片</string>
+    <string name="description_temperature_image">顯示目前溫度的圖片</string>
+    <string name="description_humidity_image">顯示目前濕度的圖片</string>
+    <string name="init_text_air_quality">空氣品質</string>
+    <string name="init_text_temperature">溫度</string>
+    <string name="init_text_humidity">濕度</string>
+    <string name="none_found">未發現裝置</string>
+    <string name="none_paired">無已配對裝置</string>
+    <string name="not_connected">尚未連接到裝置</string>
+    <string name="scan_device">掃描裝置</string>
+    <string name="scanning">掃描裝置中…</string>
+    <string name="connect_device">連接裝置</string>
+    <string name="select_device">選擇裝置</string>
+    <string name="send">傳送</string>
+    <string name="text_tab_image">標籤圖片</string>
+    <string name="title_connected_to">連接到 <xliff:g id="device_name">%1$s</xliff:g></string>
+    <string name="title_connecting">連接中…</string>
+    <string name="title_not_connected">未連接</string>
+    <string name="title_other_devices">其他可用裝置</string>
+    <string name="title_paired_devices">已配對裝置</string>
+    <string name="voice_button_description">開始語音辨識</string>
+    <string name="text_to_speech_air_quality_prefix">現在空氣品質是每立方公尺</string>
+    <string name="text_to_speech_air_quality_suffix">微克</string>
+    <string name="text_to_speech_temperature_prefix">現在溫度是攝氏</string>
+    <string name="text_to_speech_temperature_suffix">度</string>
+    <string name="no">不要</string>
+    <string name="ok">好</string>
+    <string name="permission_message_record_audio">為了使用語音辨識，需要錄音權限</string>
+    <string name="permission_required">需要權限</string>
+    <string name="speech_recognition_not_supported">不支援語音辨識</string>
+    <string name="start_recognition_prompt">要我幫你做什麼呢？</string>
+    <string name="text_to_speech_humidity_prefix">現在濕度</string>
+    <string name="bt_not_supported">不支援藍芽</string>
+    <string name="connect_to">連接至</string>
+    <string name="no_chart_data_available">沒有資料</string>
+    <string name="find_kitty_first">要先找到小貓</string>
+    <string name="kitty_not_found">小貓不在喔</string>
+    <string name="where_is_kitty">小貓去哪了</string>
+    <string name="where_r_u_kitty">小貓 你在哪</string>
+    <string name="about">關於</string>
+</resources>

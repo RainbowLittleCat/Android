@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFF</color>
+    <color name="colorPrimaryDark">#C7FFFFFF</color>
+    <color name="colorAccent">#F06292</color>
+    <color name="background_tab_selected">#61FCFCFC</color>
+    <color name="background_tab_unselected">#38808080</color>
+    <color name="color_text_shadow">#C8000000</color>
+    <color name="air_quality_drawable_start_color">#CC69F0AE</color>
+    <color name="air_quality_drawable_center_color">#CC8C9EFF</color>
+    <color name="air_quality_drawable_end_color">#CCAB47BC</color>
+    <color name="temperature_drawable_start_color">#CC90CAF9</color>
+    <color name="temperature_drawable_center_color">#CCEF9A9A</color>
+    <color name="temperature_drawable_end_color">#CCEC407A</color>
+    <color name="humidity_drawable_start_color">#CCE3F2FD</color>
+    <color name="humidity_drawable_center_color">#CC90CAF9</color>
+    <color name="humidity_drawable_end_color">#CC2979FF</color>
+    <color name="white">#fff</color>
+    <color name="black">#000</color>
+    <color name="tab_text_unselected">#AD404040</color>
+</resources>

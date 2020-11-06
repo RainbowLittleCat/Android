@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:apps="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_constraint_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.google.android.material.tabs.TabLayout
+        android:id="@+id/tabs"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        apps:layout_constraintEnd_toEndOf="parent"
+        apps:layout_constraintStart_toStartOf="parent"
+        apps:layout_constraintTop_toTopOf="parent"
+        apps:tabGravity="fill"
+        apps:tabIndicatorColor="@color/black"
+        apps:tabIndicatorGravity="bottom"
+        apps:tabIndicatorHeight="2dp"
+        apps:tabMode="fixed"
+        apps:tabPaddingEnd="0dp"
+        apps:tabPaddingStart="0dp"
+        apps:tabSelectedTextColor="@color/black"
+        apps:tabTextAppearance="@android:style/TextAppearance.Widget.TabWidget"
+        apps:tabTextColor="@color/tab_text_unselected" />
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/refresh_layout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        apps:layout_constraintBottom_toTopOf="@id/voice_input_button"
+        apps:layout_constraintEnd_toEndOf="parent"
+        apps:layout_constraintStart_toStartOf="parent"
+        apps:layout_constraintTop_toBottomOf="@id/tabs">
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/voice_input_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:contentDescription="@string/voice_button_description"
+        android:src="@drawable/ic_mic_black_24dp"
+        apps:backgroundTint="@color/white"
+        apps:layout_constraintBottom_toBottomOf="@id/main_constraint_layout"
+        apps:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
