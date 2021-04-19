@@ -368,6 +368,7 @@ public class MainActivity extends AppCompatActivity implements
      */
     @Override
     public void onRequestPermissionsResult(int requestCode, @Nullable String[] permissions, @Nullable int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
         // If the request is canceled, the result array will be empty
         if (requestCode == AUDIO_RECORD_PERMISSION_REQUEST) {
             assert grantResults != null;
